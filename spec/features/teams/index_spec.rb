@@ -20,5 +20,4 @@ RSpec.describe 'teams#index' do
         expect(page).to have_content(@orlando_city.name)
         expect(page).to have_content(@inter_miami.name)
     end
-
 end
