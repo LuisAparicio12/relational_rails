@@ -97,9 +97,6 @@ GEM
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
-    debug (1.9.1)
-      irb (~> 1.10)
-      reline (>= 0.3.8)
     diff-lcs (1.5.0)
     docile (1.4.0)
     drb (2.2.0)
@@ -222,6 +219,8 @@ GEM
       rspec-support (~> 3.12)
     rspec-support (3.12.1)
     ruby2_keywords (0.0.5)
+    shoulda-matchers (6.1.0)
+      activesupport (>= 5.2.0)
     simplecov (0.22.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
@@ -267,7 +266,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
-  debug
   importmap-rails
   jbuilder
   pg (~> 1.1)
@@ -275,6 +273,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 7.1.2)
   rspec-rails
+  shoulda-matchers
   simplecov
   sprockets-rails
   stimulus-rails
